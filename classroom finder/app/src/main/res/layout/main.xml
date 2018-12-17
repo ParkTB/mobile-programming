@@ -18,25 +18,28 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/button15"
+                android:id="@+id/gyeongsang"
                 android:layout_width="match_parent"
-                android:textSize="25sp"
                 android:layout_height="145dp"
-                android:text="경상관" />
+                android:onClick="gclick"
+                android:text="경상관"
+                android:textSize="25sp" />
 
             <Button
-                android:id="@+id/button14"
-                android:textSize="25sp"
+                android:id="@+id/building7"
                 android:layout_width="match_parent"
                 android:layout_height="145dp"
-                android:text="7호관" />
+                android:onClick="seven"
+                android:text="7호관"
+                android:textSize="25sp" />
 
             <Button
-                android:id="@+id/button13"
-                android:textSize="25sp"
+                android:id="@+id/science"
                 android:layout_width="match_parent"
                 android:layout_height="145dp"
-                android:text="과학관" />
+                android:onClick="sclick"
+                android:text="과학관"
+                android:textSize="25sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -45,32 +48,36 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/button18"
-                android:textSize="25sp"
+                android:id="@+id/international"
                 android:layout_width="match_parent"
                 android:layout_height="145dp"
-                android:text="국제관" />
+                android:onClick="iclick"
+                android:text="국제관"
+                android:textSize="25sp" />
 
             <Button
-                android:id="@+id/button17"
-                android:textSize="25sp"
+                android:id="@+id/bukak"
                 android:layout_width="match_parent"
                 android:layout_height="145dp"
-                android:text="북악관" />
+                android:onClick="bclick"
+                android:text="북악관"
+                android:textSize="25sp" />
 
             <Button
-                android:id="@+id/button16"
-                android:textSize="25sp"
+                android:id="@+id/art"
                 android:layout_width="match_parent"
                 android:layout_height="145dp"
-                android:text="예술관" />
+                android:onClick="aclick"
+                android:text="예술관"
+                android:textSize="25sp" />
         </LinearLayout>
     </LinearLayout>
 
     <Button
-        android:id="@+id/button20"
-        android:textSize="25sp"
+        android:id="@+id/law"
         android:layout_width="match_parent"
         android:layout_height="73dp"
-        android:text="법학관" />
+        android:onClick="lclick"
+        android:text="법학관"
+        android:textSize="25sp" />
 </LinearLayout>
