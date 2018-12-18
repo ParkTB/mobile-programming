@@ -19,6 +19,8 @@
         </activity>
         <activity android:name=".sub2">
         </activity>
+        <activity android:name=".iddb">
+        </activity>
     </application>
 
 </manifest>
